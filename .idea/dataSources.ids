@@ -3,4 +3,13 @@
   <data-source source="LOCAL" name="Rails dristhi-annual-targets: development" uuid="79e72265-dac1-4b90-8a8b-4faa1d3802f0">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails dristhi-annual-targets: test" uuid="101ec1d6-30e1-400e-b60f-08d814a8ee3b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails dristhi-annual-targets: production" uuid="765056bb-e497-45ee-b8a5-3400c642485a">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails dristhi-annual-targets: default" uuid="04b6c4f9-381d-4f50-8a9c-0b7d69e51a8d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>

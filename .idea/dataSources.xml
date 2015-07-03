@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3987182109">
+  <component name="DataSourceManagerImpl" format="xml" hash="7453155">
     <data-source source="LOCAL" name="Rails dristhi-annual-targets: development" uuid="79e72265-dac1-4b90-8a8b-4faa1d3802f0">
       <driver-ref>sqlite.xerial</driver-ref>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:drishti</jdbc-url>
+      <user-name>postgres</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails dristhi-annual-targets: test" uuid="101ec1d6-30e1-400e-b60f-08d814a8ee3b">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:drishti</jdbc-url>
+      <user-name>postgres</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails dristhi-annual-targets: production" uuid="765056bb-e497-45ee-b8a5-3400c642485a">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:drishti</jdbc-url>
+      <user-name>postgres</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails dristhi-annual-targets: default" uuid="04b6c4f9-381d-4f50-8a9c-0b7d69e51a8d">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:drishti</jdbc-url>
+      <user-name>postgres</user-name>
       <libraries />
     </data-source>
   </component>
