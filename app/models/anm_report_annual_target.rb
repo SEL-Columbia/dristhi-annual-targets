@@ -26,7 +26,4 @@ class AnmReportAnnualTarget < ActiveRecord::Base
         :start_date => start_date,
         :end_date => end_date).first
   end
-
-
-
 end

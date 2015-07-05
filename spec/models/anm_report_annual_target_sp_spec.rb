@@ -92,6 +92,7 @@ describe AnmReportAnnualTargetSp do
     expect(anm_report_annual_target_sp).to eq(nil)
 
     AnmReportAnnualTargetSp.import(anm_identifier, indicator, target, start_date, end_date)
+
     anm_report_annual_target_sp = AnmReportAnnualTargetSp.fetch(anm_identifier, indicator, start_date, end_date)
     expect(anm_report_annual_target_sp.target).to eq(target)
   end
