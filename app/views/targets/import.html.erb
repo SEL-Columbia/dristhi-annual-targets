@@ -1,2 +1,23 @@
-<h1>Targets#import</h1>
-<p>Find me in app/views/targets/import.html.erb</p>
+<h1><%=@count%> record(s) failed import</h1>
+
+<% unless @count == 0 %>
+    <table>
+      <tr>
+        <th>AnmIdentifier</th>
+        <th>Indicator</th>
+        <th>Target</th>
+        <th>StartDate</th>
+        <th>EndDate</th>
+      </tr>
+      <% @error_records.each do |error_record| %>
+          <tr>
+            <td><%= error_record[:anm_identifier] %></td>
+            <td><%= error_record[:indicator] %></td>
+            <td><%= error_record[:target] %></td>
+            <td><%= error_record[:start_date] %></td>
+            <td><%= error_record[:end_date] %></td>
+          </tr>
+      <% end %>
+    </table>
+<% end %>
+

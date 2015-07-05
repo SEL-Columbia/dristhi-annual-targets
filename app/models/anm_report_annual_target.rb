@@ -14,9 +14,7 @@ class AnmReportAnnualTarget < ActiveRecord::Base
       anm_report_annual_target.dim_indicator = DimIndicator.where(:indicator => indicator).first
     end
     anm_report_annual_target.target = target
-    if(anm_report_annual_target.valid?)
-      anm_report_annual_target.save!
-    end
+    anm_report_annual_target.valid? ? anm_report_annual_target.save! : false
   end
 
   def self.fetch(anm_identifier, indicator, start_date, end_date)
