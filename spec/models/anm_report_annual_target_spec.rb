@@ -31,20 +31,6 @@ describe AnmReportAnnualTarget do
     expect(annualTarget.valid?).to be(true)
   end
 
-  it "should not be a valid target" do
-    annualTarget = AnmReportAnnualTarget.new
-    annualTarget.dim_anm = DimAnm.first
-    annualTarget.dim_indicator = DimIndicator.first
-    annualTarget.start_date = Time.now
-    annualTarget.end_date = Time.now
-
-    #annualTarget.target = "-1"
-    #expect(annualTarget.valid?).to be(false)
-    #
-    #annualTarget.target = "100.5"
-    #expect(annualTarget.valid?).to be(false)
-  end
-
   it "should fetch data from the database" do
     anm_identifier = 'bhe1'
     indicator = 'OCP'
