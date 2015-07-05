@@ -54,7 +54,7 @@ describe AnmReportAnnualTargetSp do
     end_date = '2013-03-25'.to_date
     target = "12"
 
-    anm_report_annual_target_sp = AnmReportAnnualTarget.fetch(anm_identifier, indicator, start_date, end_date)
+    anm_report_annual_target_sp = AnmReportAnnualTargetSp.fetch(anm_identifier, indicator, start_date, end_date)
 
     expect(anm_report_annual_target_sp).to eq(nil)
   end
@@ -69,6 +69,12 @@ describe AnmReportAnnualTargetSp do
     anm_report_annual_target_sp = AnmReportAnnualTargetSp.fetch(anm_identifier, indicator, start_date, end_date)
     expect(anm_report_annual_target_sp.target).not_to eq(target)
 
+    AnmReportAnnualTargetSp.import(anm_identifier, indicator, target, start_date, end_date)
+
+    anm_report_annual_target_sp = AnmReportAnnualTargetSp.fetch(anm_identifier, indicator, start_date, end_date)
+    expect(anm_report_annual_target_sp.target).to eq(target)
+
+    target = "20"
     AnmReportAnnualTargetSp.import(anm_identifier, indicator, target, start_date, end_date)
 
     anm_report_annual_target_sp = AnmReportAnnualTargetSp.fetch(anm_identifier, indicator, start_date, end_date)
@@ -89,5 +95,4 @@ describe AnmReportAnnualTargetSp do
     anm_report_annual_target_sp = AnmReportAnnualTargetSp.fetch(anm_identifier, indicator, start_date, end_date)
     expect(anm_report_annual_target_sp.target).to eq(target)
   end
-
 end
