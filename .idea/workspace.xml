@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ba3bd5f-5bcf-4e61-bdb2-b2a108a874c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/targets_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/targets_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/targets/index.html.erb" afterPath="$PROJECT_DIR$/app/views/targets/index.html.erb" />
     </list>
     <ignored path="dristhi-annual-targets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,19 +64,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="targets_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/targets_controller.rb">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.3659181" vertical-offset="488" max-vertical-offset="1305">
+            <state line="5" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/targets/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="8" column="25" selection-start="710" selection-end="710" vertical-scroll-proportion="0.16371077" vertical-offset="0" max-vertical-offset="733">
               <folding />
             </state>
           </provider>
@@ -133,7 +132,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/db/migrate/20150701100640_create_targets.rb" />
-        <option value="$PROJECT_DIR$/app/views/targets/index.html.erb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
         <option value="$PROJECT_DIR$/app/models/AnmReportSchema.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -159,6 +157,7 @@
         <option value="$PROJECT_DIR$/app/views/targets/import.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/targets_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/targets_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/targets/index.html.erb" />
       </list>
     </option>
   </component>
@@ -1120,13 +1119,6 @@
         <state line="22" column="14" selection-start="868" selection-end="868" vertical-scroll-proportion="0.47482014" vertical-offset="0" max-vertical-offset="705" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/targets/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="7" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1065">
@@ -1313,16 +1305,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/targets_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/targets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+        <state line="53" column="31" selection-start="1529" selection-end="1543" vertical-scroll-proportion="0.0" vertical-offset="488" max-vertical-offset="1305">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/targets_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/targets_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1482" selection-end="1482" vertical-scroll-proportion="0.3659181" vertical-offset="488" max-vertical-offset="1305">
+        <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/targets/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="710" selection-end="710" vertical-scroll-proportion="0.16371077" vertical-offset="0" max-vertical-offset="733">
           <folding />
         </state>
       </provider>

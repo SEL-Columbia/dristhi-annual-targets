@@ -1,6 +1,16 @@
-<h2>Import Products</h2>
+<h2>Import Rules</h2>
+<p>The excel file columns and values should follow the below rules:</p>
+<p>1) There should be a column with name 'ANM Identifier' and the corresponding values should be non-empty string</p>
+<p>2) There should be a column with name 'Indicator' and the corresponding values should be non-empty string</p>
+<p>3) There should be a column with name 'Target' and the corresponding values should be non-empty integer > 0</p>
+<p>4) There should be a column with name 'start_date' and the corresponding values should be YYYY-MM-DD formated date </p>
+<p>5) There should be a column with name 'end_date' and the corresponding values should be YYYY-MM-DD formated date </p>
+
+<h2>Import Annual Targets</h2>
 
 <%= form_tag import_targets_path, multipart:true do %>
 <%= file_field_tag :file %>
 <%= submit_tag "Import" %>
 <% end %>
+
+</br>
