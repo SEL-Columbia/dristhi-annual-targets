@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ba3bd5f-5bcf-4e61-bdb2-b2a108a874c3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/targets/import.html.erb" afterPath="$PROJECT_DIR$/app/views/targets/import.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="dristhi-annual-targets.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,6 +64,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="18" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.54425365" vertical-offset="128" max-vertical-offset="960">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="import.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="import.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/targets/import.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="0.55252385" vertical-offset="0" max-vertical-offset="733">
+            <state line="27" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -86,15 +95,6 @@
         <entry file="file://$PROJECT_DIR$/app/models/dim_anm.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="3" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anm_report_annual_target_sp.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/anm_report_annual_target_sp.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -153,11 +153,11 @@
         <option value="$PROJECT_DIR$/spec/models/anm_report_annual_target_sp_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/dim_service_provider_type.rb" />
         <option value="$PROJECT_DIR$/app/models/anm_report_annual_target.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/helpers/targets_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/targets_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/targets/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/targets/import.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -1228,13 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="537" selection-end="537" vertical-scroll-proportion="0.14795244" vertical-offset="128" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
@@ -1321,7 +1314,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/targets/import.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="0.55252385" vertical-offset="0" max-vertical-offset="733">
+        <state line="27" column="0" selection-start="709" selection-end="709" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="18" selection-start="1046" selection-end="1046" vertical-scroll-proportion="0.54425365" vertical-offset="128" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
